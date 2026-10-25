@@ -86,4 +86,4 @@ Kruskal was faster on these generated graphs. Its main work is sorting edge IDs;
 
 ## Sources and tools
 
-Source of the contract and examples: the supplied `Assignment_3_EN.pdf` and the template repository README and public validator. No external algorithm implementation was copied. AI tools were used to draft the code and analysis, explain the algorithms and review test results. The reported outputs and measurements were produced by the commands above and checked against the test files.
+Source of the contract and examples: the supplied `Assignment_3_EN.pdf` and the template repository README and public validator. No external algorithm implementation was copied. AI tools were used as a supplementary aid to explain the algorithm classes, help locate errors during debugging, and review test results. I wrote the submitted code myself; AI did not generate the implementation. The reported outputs and measurements were produced by the commands above and checked against the test files.

@@ -1,0 +1,101 @@
+{
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "scale": {
+    "dsu": {
+      "n": 100000,
+      "operations": 250000,
+      "final": [
+        1,
+        100000
+      ]
+    },
+    "kruskal": {
+      "n": 100000,
+      "m": 250000,
+      "cost": 99999,
+      "selected": 99999
+    },
+    "prim": {
+      "n": 100000,
+      "m": 250000,
+      "cost": 99999,
+      "selected": 99999
+    },
+    "scc": {
+      "n": 100000,
+      "m": 250000,
+      "components": 100000,
+      "condensation_edges": 99999
+    },
+    "topo": {
+      "n": 100000,
+      "m": 250000,
+      "first": 0,
+      "last": 99999
+    },
+    "dag": {
+      "n": 100000,
+      "m": 250000,
+      "last_distance": -99999,
+      "route_vertices": 100000
+    }
+  },
+  "benchmark": [
+    {
+      "n": 1000,
+      "m": 4000,
+      "seed": 314159,
+      "cost": -717159797,
+      "kruskal_ms": [
+        2.527,
+        2.37,
+        2.712
+      ],
+      "prim_ms": [
+        3.704,
+        4.74,
+        2.945
+      ],
+      "kruskal_median_ms": 2.527,
+      "prim_median_ms": 3.704
+    },
+    {
+      "n": 5000,
+      "m": 20000,
+      "seed": 314160,
+      "cost": -3523449443,
+      "kruskal_ms": [
+        16.658,
+        17.31,
+        15.999
+      ],
+      "prim_ms": [
+        19.86,
+        23.593,
+        25.247
+      ],
+      "kruskal_median_ms": 16.658,
+      "prim_median_ms": 23.593
+    },
+    {
+      "n": 20000,
+      "m": 80000,
+      "seed": 314161,
+      "cost": -14123031093,
+      "kruskal_ms": [
+        236.377,
+        246.885,
+        249.645
+      ],
+      "prim_ms": [
+        434.688,
+        421.806,
+        440.689
+      ],
+      "kruskal_median_ms": 246.885,
+      "prim_median_ms": 434.688
+    }
+  ]
+}

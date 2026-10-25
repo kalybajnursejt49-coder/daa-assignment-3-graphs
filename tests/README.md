@@ -1,11 +1,11 @@
-# Your tests / Ваши тесты
+# Own tests
 
-Create your own JSON Lines inputs here, together with expected and actual outputs and an explanation of each test. Run a file from the repository root:
+Run from the repository root:
 
 ```sh
-python tools/run.py --input tests/my_cases.jsonl
+python tools/run.py --input tests/own_cases.jsonl > tests/actual.jsonl
+python tests/check_own.py
+python tests/scale_benchmark.py
 ```
 
-Create `my_cases.jsonl` before running this example command. The launcher prints actual results; compare them with independently justified expected answers. Your files are not discovered automatically. Call your route helper directly in your test code. See the root README for all requirements.
-
-Создайте здесь свои входы JSON Lines, ожидаемые и фактические результаты и объяснения тестов. Команда выше запускает созданный вами файл, но не сравнивает ответы автоматически. Функцию восстановления пути вызывайте непосредственно из своего тестового кода. Полные требования приведены в README в корне репозитория.
+`own_cases.jsonl`, `expected.jsonl` and `actual.jsonl` have matching lines. `check_own.py` checks witness validity, alternative valid answers, invalid witnesses and route reconstruction. `scale_benchmark.py` generates the published maximum sizes and writes actual summaries and timings to `scale_benchmark_actual.json`. The reasoning for expected values and the benchmark method are in `ANALYSIS.md`.

@@ -1,0 +1,12 @@
+{"status":"ready"}
+{"states":[]}
+{"states":[[5,1],[4,2],[4,2],[3,2],[2,4]]}
+{"cost":1000000001,"edge_ids":[1,2,5],"components":2}
+{"cost":1000000001,"edge_ids":[1,2,5],"components":2}
+{"component":[1,1,2,2,3,0],"condensation":[[1,2],[2,3]]}
+{"acyclic":true,"order":[1,0,2,3]}
+{"acyclic":false,"order":[]}
+{"acyclic":true,"distance":[0,4,-1,2,null,null],"parent_edge":[-1,0,2,4,-1,-1]}
+{"acyclic":false,"distance":[],"parent_edge":[]}
+{"cost":3000000000,"edge_ids":[0,1,2],"components":1}
+{"acyclic":true,"distance":[0,1000000000,2000000000,3000000000],"parent_edge":[-1,0,1,2]}
